@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Phần trình chiếu ảnh -->
+<div id="myCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel"
+                data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#myCarousel"
+                data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#myCarousel"
+                data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/images/image1.jpeg" class="d-block w-100"
+                 style="height: 350px; object-fit: cover;"
+                 alt="Hình ảnh 1" />
+            <div class="carousel-caption">
+                <h3>Welcome to NetCoreLAB7</h3>
+                <p>Building modern web applications</p>
+            </div>
+        </div>
+
+        <div class="carousel-caption" style="color: black;">
+    <h3>Welcome to NetCoreLAB7</h3>
+    <p>Building modern web applications</p>
+</div>
+
+        <div class="carousel-item">
+            <img src="~/images/image2.webp" class="d-block w-100"
+                 style="height: 350px; object-fit: cover;"
+                 alt="Hình ảnh 2" />
+        </div>
+
+        <div class="carousel-item">
+            <img src="~/images/image3.webp" class="d-block w-100"
+                 style="height: 350px; object-fit: cover;"
+                 alt="Hình ảnh 3" />
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button"
+            data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Trước</span>
+    </button>
+
+    <button class="carousel-control-next" type="button"
+            data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Tiếp</span>
+    </button>
+</div>
+
+<!-- Bốn cột nội dung -->
+
+<div class="row">
+    <div class="col-md-3">
+        <h3>Application uses</h3>
+        <ul>
+            <li><a href="https://learn.microsoft.com/aspnet/core/mvc/overview">Sample pages using ASP.NET Core MVC</a></li>
+            <li><a href="https://getbootstrap.com/">Theming using Bootstrap</a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-3">
+        <h3>How to</h3>
+        <ul>
+            <li><a href="https://learn.microsoft.com/aspnet/core/mvc/overview">Add a Controller and View</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/security/app-secrets">Manage User Secrets using Secret Manager</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/fundamentals/logging/">Use logging to log a message</a></li>
+            <li><a href="https://learn.microsoft.com/nuget/">Add packages using NuGet</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/host-and-deploy/">Target development, staging or production environment</a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-3">
+        <h3>Overview</h3>
+        <ul>
+            <li><a href="https://learn.microsoft.com/aspnet/core/">Conceptual overview of what is ASP.NET Core</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/fundamentals/">Fundamentals of ASP.NET Core such as Startup and middleware</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/data/">Working with Data</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/security/">Security</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/client-side/">Client side development</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/">Develop on different platforms</a></li>
+            <li><a href="https://learn.microsoft.com/aspnet/core/">Read more on the documentation</a></li>
+        </ul>
+    </div>
+
+    <div class="col-md-3">
+        <h3>Run &amp; Deploy</h3>
+        <ul>
+            <li><a href="https://learn.microsoft.com/aspnet/core/tutorials/first-mvc-app/start-mvc">Run your app</a></li>
+            <li><a href="https://learn.microsoft.com/ef/core/cli/dotnet">Run tools such as EF migrations and more</a></li>
+            <li><a href="https://learn.microsoft.com/azure/app-service/">Publish to Microsoft Azure Web Apps</a></li>
+        </ul>
+    </div>
+</div>
+
